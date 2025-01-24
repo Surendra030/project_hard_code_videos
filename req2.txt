@@ -1,0 +1,11 @@
+mega.py
+pyzipper
+PyPDF2
+ReportLab
+bs4
+requests
+cryptography
+selenium
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
