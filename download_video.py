@@ -54,11 +54,7 @@ def download_file(index,service, file_id, file_name, download_path):
 
 
 def start_downloading(obj,data):
-    obj = {
-        "sno": 1682,
-        "title": "ActionAdventureAnime SeriesDramaFantasyRomance\nSpirit Chronicles (Seirei Gensouki) (Season 1-2) 1080p Dual Audio HEVC",
-        "driver_Url": "https://drive.google.com/drive/folders/1VhbHM2qCpX2LuTAC3n_EXZeBW7u6lVuF?usp=sharing"
-    }
+
     url = obj['driver_Url']
     id = str(url).split("/folders/")[-1]
     
