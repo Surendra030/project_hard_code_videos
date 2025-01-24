@@ -17,8 +17,8 @@ def upload_hardcoded_videos_folders(file_name):
         print(f'{30*"*"}')
 
 
-        
-        folder_name = 'zip_files'
+        start = os.getenv("START")
+        folder_name = f'{start}_zip_files'
         file = m.create_folder(folder_name)
         try:
             m.upload(file_name,file[folder_name])
