@@ -129,9 +129,8 @@ if os.path.exists(file_name):
             original_files = os.listdir()
             print(f"{30*"-"}\n{original_files}\n{30*"-"}")
             
-            for video_file in  [file for file in os.listdir() if file.endswith(('.mkv'))]t:
-                
-  [:6]             temp_video_file = str(video_file)
+            for video_file in  [file for file in os.listdir() if file.endswith(('.mkv'))][:6]:
+                temp_video_file = str(video_file)
                 print(f"{4*'\t'} -> {video_file}\n\n")
                 try:
                     print(f"{30 * '-'}\n stage : 2")
